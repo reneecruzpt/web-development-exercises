@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Flight</title>
+ </head>
+ <body>
+    <form method="post" action="program">
+    <p><h2>Flight search</h2></p>
+    <p><b>Your name:</b>    
+    <input type="text" maxlength="25" size="25"></p>
+    <p><b>Your last name:</b>
+    <input type="text" maxlength="25" size="25"></p>
+    <p><b>Your gender:</b> <input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female">Female</p>
+    <p><b>Choose a city:</b>
+        <select name="cites">
+        <option value="New York">New York</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="London">London</option>
+        <option value="Beijing">Beijing</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Seul">Seul</option>
+    </select>  </p>
+   
+   <p><b>Select a date:</b> <input type="date" name="calendar"></p>
+   <p><b>Select the desired time:</b> <input type="time" name="time" value="00:00"></p>
+   <p><input type="submit" value="Search"> </p>
+ 
+    </form>
+ </body>
+</html>
